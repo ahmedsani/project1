@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta content="Start your development with a Dashboard for Bootstrap 4." name="description">
+	<meta content="Spruko" name="author">
+
+	<!-- Title -->
+	<title>1st Dollar Mobile</title>
+
+	<!-- Favicon -->
+	<link href="assets/img/brand/favicon.png" rel="icon" type="image/png">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800" rel="stylesheet">
+
+	<!-- Icons -->
+	<link href="assets/css/icons.css" rel="stylesheet">
+
+	<!--Bootstrap.min css-->
+	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
+	<!-- Ansta CSS -->
+	<link href="assets/css/dashboard.css" rel="stylesheet" type="text/css">
+
+	<!-- Custom scroll bar css-->
+	<link href="assets/plugins/customscroll/jquery.mCustomScrollbar.css" rel="stylesheet" />
+
+	<!-- Sidemenu Css -->
+	<link href="assets/plugins/toggle-sidebar/css/sidemenu.css" rel="stylesheet">
+
+	<!--Select2 css-->
+	<link rel="stylesheet" href="assets/plugins/select2/select2.css">
+</head>
+<body class="app sidebar-mini rtl" >
+	<div id="global-loader" ></div>
+	<div class="page">
+		<div class="page-main">
+			<!-- Sidebar menu-->
+			<div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+			<aside class="app-sidebar ">
+				<div class="sidebar-img">
+					<a class="navbar-brand" href="index-2.html"><img alt="..." class="navbar-brand-img main-logo" src="assets/img/brand"> <img alt="..." class="navbar-brand-img logo" src="assets/img/brand/g"></a>
+					<ul class="side-menu">
+						<li class="slide">
+							<a class="side-menu__item active" data-toggle="slide" href="#"><i class="side-menu__icon fe fe-home"></i><span class="side-menu__label">Dashboard</span><i class="angle fa fa-angle-right"></i></a>
+							<ul class="slide-menu">
+								<li>
+									<a class="slide-item" href="index-2.html">Customer Dashboard</a>
+								</li>
+								<li>
+									<a class="slide-item" href="#">Transaction Dashboard</a>
+								</li>
+								<li>
+									<a class="slide-item" href="#">Marketing Dashboard</a>
+								</li>
+								<li>
+									<a class="slide-item" href="#">Loan Dashboard</a>
+								</li>
+								<li>
+									<a class="slide-item" href="#">Cash Dashboard</a>
+								</li>	
+
+							</ul>
+						</li>
+				
+						<li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fe fe-edit"></i><span class="side-menu__label">Acct/Profile Mgt</span><i class="angle fa fa-angle-right"></i></a>
+							<ul class="slide-menu">
+								<li>
+									<a href="createprofile.html" class="slide-item">Create Profile</a>
+								</li>
+								<li>
+									<a href="#" class="slide-item">Update Next of Kin</a>
+								</li>
+								<li>
+										<a href="mandate.html" class="slide-item">Upload Mandate</a>
+									</li>
+								<li>
+									<a href="#" class="slide-item">Account Creation</a>
+								</li>
+								<li>
+									<a href="#" class="slide-item">Staff Creation</a>
+								</li>
+								<li>
+									<a href="#" class="slide-item">Staff update</a>
+								</li>
+								<li>
+									<a href="bvn.html" class="slide-item">Bvn Verification</a>
+								</li>
+								<li>
+										<a href="#" class="slide-item">Assign Role</a>
+									</li>
+							</ul>
+						</li>
+						
+						<li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fe fe-file-text"></i><span class="side-menu__label">Search</span><i class="angle fa fa-angle-right"></i></a>
+							<ul class="slide-menu">
+								<li>
+									<a href="tables.html" class="slide-item">Customer</a>
+								</li>
+								<li>
+									<a href="#" class="slide-item">Staff</a>
+								</li>
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fe fe-bar-chart-2"></i><span class="side-menu__label">Statistics</span><i class="angle fa fa-angle-right"></i></a>
+							<ul class="slide-menu">
+								<li>
+									<a href="#" class="slide-item">Transaction</a>
+								</li>
+								<li>
+									<a href="#" class="slide-item">Customer</a>
+								</li>
+								
+							</ul>
+						</li>
+						
+						<li class="slide">
+								<a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fe fe-edit"></i><span class="side-menu__label">Transaction</span><i class="angle fa fa-angle-right"></i></a>
+								<ul class="slide-menu">
+
+
+								<li>
+									<a href="#" class="slide-item">Teller Deposit</a>
+								</li>
+								<li>
+									<a href="#" class="slide-item">Teller Withdrawal</a>
+								</li>
+								<li>
+									<a href="#" class="slide-item">Direct Debit</a>
+								</li>
+								<li>
+									<a href="#" class="slide-item">Loan Liqudation</a>
+								</li>
+								<li>
+									<a href="#" class="slide-item">loan Rate Setting</a>
+								</li>
+								
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fe fe-italic"></i><span class="side-menu__label">Report</span><i class="angle fa fa-angle-right"></i></a>
+							<ul class="slide-menu">
+								<li>
+									<a href="#" class="slide-item"></a>
+								</li>
+								<li>
+									<a href="#" class="slide-item">Ttansaction Report</a>
+								</li>
+								<li>
+									<a href="#" class="slide-item">Income Statement</a>
+								</li>
+								<li>
+									<a href="#" class="slide-item">Financial Position</a>
+								</li>
+								<li>
+									<a href="#" class="slide-item">Income Coparism</a>
+								</li>
+								
+							</ul>
+						</li>
+						</li>
+
+						</ul>
+				</div>
+			</aside>
+			<!-- Sidebar menu-->
+
+			<!-- app-content-->
+			<div class="app-content ">
+				<div class="side-app">
+					<div class="main-content">
+						<div class="p-2 d-block d-sm-none navbar-sm-search">
+							<!-- Form -->
+							<form class="navbar-search navbar-search-dark form-inline ml-lg-auto">
+								<div class="form-group mb-0">
+									<div class="input-group input-group-alternative">
+										<div class="input-group-prepend">
+											<span class="input-group-text"><i class="fas fa-search"></i></span>
+										</div><input class="form-control" placeholder="Search" type="text">
+									</div>
+								</div>
+							</form>
+						</div>
+						<!-- Top navbar -->
+						<nav class="navbar navbar-top  navbar-expand-md navbar-dark" id="navbar-main">
+							<div class="container-fluid">
+								<a aria-label="Hide Sidebar" class="app-sidebar__toggle" data-toggle="sidebar" href="#"></a>
+
+								
+								<!-- Form -->
+								<form class="navbar-search navbar-search-dark form-inline mr-3  ml-lg-auto">
+									<div class="form-group mb-0">
+										<div class="input-group input-group-alternative">
+											<div class="input-group-prepend">
+									</div>
+									</div>
+								</form>
+								<!-- User -->
+								<ul class="navbar-nav align-items-center ">
+									<li class="nav-item d-none d-md-flex">
+										<div class="dropdown d-none d-md-flex mt-2 ">
+											<a class="nav-link full-screen-link pl-0 pr-0"><i class="fe fe-maximize-2 floating " id="fullscreen-button"></i></a>
+										</div>
+									</li>
+									
+									<li class="nav-item dropdown">
+										<a aria-expanded="false" aria-haspopup="true" class="nav-link pr-md-0" data-toggle="dropdown" href="#" role="button">
+										<div class="media align-items-center">
+											<span class="avatar avatar-sm rounded-circle"><img alt="Image placeholder" src="assets/img/faces/female/32.jpg"></span>
+											<div class="media-body ml-2 d-none d-lg-block">
+												<span class="mb-0 ">Cori Stover</span>
+											</div>
+										</div></a>
+										<div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
+											<div class=" dropdown-header noti-title">
+												<h6 class="text-overflow m-0">Welcome!</h6>
+											</div>
+											<a class="dropdown-item" href="user-profile.html"><i class="ni ni-single-02"></i> <span>My profile</span></a>
+											<a class="dropdown-item" href="#"><i class="ni ni-settings-gear-65"></i> <span>Change Password</span></a>
+											<a class="dropdown-item" href="#"><i class="ni ni-calendar-grid-58"></i> <span>Upload Pic</span></a>
+											<div class="dropdown-divider"></div><a class="dropdown-item" href="login.html"><i class="ni ni-user-run"></i> <span>Logout</span></a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</nav>
+						<!-- Top navbar-->
+
+						<!-- Page content -->
+						<div class="container-fluid pt-8">
+                                <div class="page-header mt-0 shadow p-3">
+                                    <ol class="breadcrumb mb-sm-0">
+                                        <li class="breadcrumb-item"><a href="#">BVN</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Verification</li>
+                                    </ol>
+                                    
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="card shadow">
+                                            <div class="card-header">
+                                                <h2 class="mb-0">System Details</h2>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group has-success">
+                                                            <input type="text" class="form-control" name="Sname" placeholder="Account Number" value="">
+                                                        </div>
+                                                        <div class="form-group has-success">
+                                                            <input type="text" class="form-control" name="" placeholder="Phone Number" value="">
+                                                        </div>
+                                                         <div class="form-group has-success">
+                                                                <input type="text" class="form-control" name="" placeholder="Gender">
+                                                            </div>
+                                                            <div class="form-group has-success">
+                                                                    <input type="text" class="form-control" name="" placeholder="Username">
+                                                                </div>
+                                                                
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group has-success">
+                                                            <input type="text" class="form-control" name="" placeholder="First Name Last Name">
+                                                        </div>
+                                                        <div class="form-group  has-success">
+                                                            <input type="text" class="form-control" name="example-text-input-invalid"
+                                                            placeholder="Date of Birth">
+                                                        </div>
+                                                        <div class="form-group has-success">
+                                                            <input type="text" class="form-control" name="" placeholder="Bvn">
+                                                        </div>
+                                                            <div class="form-group has-success">
+                                                            <input type="text" class="form-control" name="" placeholder="Address">
+                                                            </div>
+                                                    </div>
+                                                    </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+
+                                <!---BVN-->
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="card shadow">
+                                            <div class="card-header">
+                                                <h2 class="mb-0">Verify BVN</h2>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group has-success">
+                                                            <input type="text" class="form-control" name="Sname" placeholder="BVN Number" value="">
+                                                        </div>
+                                                        <div class="form-group has-success">
+                                                            <input type="text" class="form-control" name="" placeholder="Phone Number" value="">
+                                                        </div>
+                                                        <div class="form-group has-success">
+                                                                <input type="text" class="form-control" name="" placeholder="Gender">
+                                                            </div>
+                                                                                                                           
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group has-success">
+                                                            <input type="text" class="form-control" name="" placeholder="Full Name">
+                                                        </div>
+                                                        <div class="form-group  has-success">
+                                                            <input type="text" class="form-control" name="example-text-input-invalid"
+                                                            placeholder="Date of Birth">
+                                                        </div>
+                                                        <div class="form-group has-success">
+                                                            <input type="text" class="form-control" name="" placeholder="Address">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+
+								<!-- Footer -->
+								<footer class="footer">
+									<div class="row align-items-center justify-content-xl-between">
+										<div class="col-xl-6">
+											<div class="copyright text-center text-xl-left text-muted">
+												<p class="text-sm font-weight-500">Copyright 2018 © All Rights Reserved.Dashboard 1st Dollar MFC</p>
+											</div>
+										</div>
+										<div class="col-xl-6">
+											<p class="float-right text-sm font-weight-500"><a href="www.ahmedtech.com.ng">Ahmed Tech</a></p>
+										</div>
+									</div>
+								</footer>
+								<!-- Footer -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- app-content -->
+			</div>
+		</div>
+		<!-- Back to top -->
+		<a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+	
+		<!-- Ansta Scripts -->
+	
+		<!-- Core -->
+		<script src="assets/plugins/jquery/dist/jquery.min.js"></script>
+		<script src="assets/js/popper.js"></script>
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	
+		<!-- Optional JS -->
+		<script src="assets/plugins/chart.js/dist/Chart.min.js"></script>
+		<script src="assets/plugins/chart.js/dist/Chart.extension.js"></script>
+	
+		<!-- Data tables -->
+		<script src="assets/plugins/datatable/jquery.dataTables.min.js"></script>
+		<script src="assets/plugins/datatable/dataTables.bootstrap4.min.js"></script>
+	
+		<!-- Fullside-menu Js-->
+		<script src="assets/plugins/toggle-sidebar/js/sidemenu.js"></script>
+	
+		<!-- file uploads js -->
+		<script src="assets/plugins/fileuploads/js/dropify.min.js"></script>
+	
+		<!-- Custom scroll bar Js-->
+		<script src="assets/plugins/customscroll/jquery.mCustomScrollbar.concat.min.js"></script>
+	
+		<!-- Ansta JS -->
+		<script src="assets/js/custom.js"></script>
+	
+		<script>
+			$('.dropify').dropify({
+				messages: {
+					'default': 'Drag and drop a file here or click',
+					'replace': 'Drag and drop or click to replace',
+					'remove': 'Remove',
+					'error': 'Ooops, something wrong appended.'
+				},
+				error: {
+					'fileSize': 'The file size is too big (2M max).'
+				}
+			});
+		</script>
+	</body>
+	
+	
+	</html>
